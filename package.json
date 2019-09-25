@@ -21,7 +21,7 @@
     ]
   },
   "dependencies": {
-    "autoconf": "esy-packages/esy-autoconf#ea58671a08c7ebf89b0cebd41f4950ca67157b01"
+    "autoconf": "esy-packages/esy-autoconf#fb93edf57b0adc4b27b34a57a562395b224002d3"
   },
   "resolutions": {}
 }
