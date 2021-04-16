@@ -1,3 +1,4 @@
+jobs:
 - template: .ci/build.yaml
   parameters:
     host: Windows
