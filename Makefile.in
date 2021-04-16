@@ -697,11 +697,11 @@ AUTOMAKESOURCES = $(automake_in) $(aclocal_in)
 info_TEXINFOS = doc/automake.texi doc/automake-history.texi
 doc_automake_TEXINFOS = doc/fdl.texi
 doc_automake_history_TEXINFOS = doc/fdl.texi
-man1_MANS = \
-  doc/aclocal.1 \
-  doc/automake.1 \
-  doc/aclocal-$(APIVERSION).1 \
-  doc/automake-$(APIVERSION).1
+man1_MANS = 
+#  doc/aclocal.1 \
+#  doc/automake.1 \
+#  doc/aclocal-$(APIVERSION).1 \
+#  doc/automake-$(APIVERSION).1
 
 update_mans = \
   $(AM_V_GEN): \
