@@ -1,16 +1,3 @@
-jobs:
-- template: .ci/build.yaml
-  parameters:
-    host: macOS
-    pool:
-      vmImage: 'macOS-10.13'
-
-- template: .ci/build.yaml
-  parameters:
-    host: Linux
-    pool:
-      vmImage: 'Ubuntu-16.04'
-
 - template: .ci/build.yaml
   parameters:
     host: Windows
